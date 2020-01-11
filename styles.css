@@ -16,6 +16,7 @@ img{
     right:60px;
     top:60px;
     width:150px;
+    max-width:15%;
     box-shadow: 0px 0px 30px black;
 }
 section{
