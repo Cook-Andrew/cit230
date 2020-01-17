@@ -3,4 +3,7 @@
         display: grid;
         grid-template-columns: auto auto;
     }
+    header, footer{
+        border-radius:15px;
+    }
 }
