@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gayathri', sans-serif;
     margin: 3em;
 }
 header{
@@ -10,6 +10,10 @@ header{
 }
 h1 {
     color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 img{
     position:absolute;
