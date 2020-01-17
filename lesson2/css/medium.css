@@ -1,11 +1,6 @@
-@media (min-width:32.5em){
-    body{
-        text-align: left;
-    }
-    img{
-        position:absolute;
-        right:60px;
-        top:60px;
-        max-width:15%;
+@media (min-width:32.5em) {
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
     }
 }

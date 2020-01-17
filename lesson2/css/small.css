@@ -1,0 +1,65 @@
+body {
+    font-family: 'Gayathri', sans-serif;
+    text-align: left;
+}
+
+header {
+    background-color: blue;
+    padding: 0.3em 1em;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+section {
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 1em;
+    background-color: rgb(192, 192, 192);
+}
+
+h3 {
+    padding-left: 1em;
+    margin-top: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: darkblue;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    padding: 1em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: blue;
+}
+
+footer {
+    color: white;
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: purple;
+}

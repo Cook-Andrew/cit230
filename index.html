@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +9,7 @@
   <title>Assignment Portal | CIT 230 | Andrew Cook</title>
   <meta name="description" content="Assignment portal for Andrew Cook in CIT 230 - Web Frontend Development">
   <meta name="author" content="Andrew Cook">
-  
+
   <!-- link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" -->
   <link rel="stylesheet" href="/CIT230/css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Gayathri|Montserrat&display=swap" rel="stylesheet">
@@ -20,29 +21,31 @@
 <body onload="update()">
   <header>
     <h1>Andrew Cook</h1>
-    <img src="me.jpg" alt="a photo of me"/>
+    <img src="me.jpg" alt="a photo of me" />
   </header>
   <section>
     <h2>CIT 230: Assignment Portal</h2>
-    <hr/>
+    <hr />
     <ul>
       <li>Lesson 01: <a href="index.html">Assignment Portal</a></li>
       <li>Lesson 02: <a href="design-principles.html">Design Principles</a></li>
     </ul>
-    <br/>
-    <br/>
+    <br />
+    <br />
 
   </section>
   <footer>
-    <div>&#169; <span id="currentYear">20--</span> | Andrew Cook | Utah | <a target="_blank" href="https://www.byui.edu/online">BYUI Online Learning</a></div>
+    <div>&#169; <span id="currentYear">20--</span> | Andrew Cook | Utah | <a target="_blank"
+        href="https://www.byui.edu/online">BYUI Online Learning</a></div>
     <div id="lastMod">last modified: </div>
   </footer>
   <script>
-    function update(){
+    function update() {
       var today = new Date();
       document.getElementById("currentYear").innerHTML = today.getFullYear();
-      document.getElementById("lastMod").innerHTML = "last modified: "+document.lastModified;
+      document.getElementById("lastMod").innerHTML = "last modified: " + document.lastModified;
     }
   </script>
 </body>
+
 </html>
