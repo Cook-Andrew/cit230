@@ -2,7 +2,10 @@ body {
     font-family: 'Gayathri', sans-serif;
     text-align: left;
 }
-
+article{
+    max-width: 70em;
+    margin: auto;
+}
 header {
     background-color: #3C4F76;
     padding: 0.3em 1em;
@@ -47,11 +50,9 @@ p {
 footer {
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    width:100%;
+    max-width: 70em;
     background-color: #3C4F76;
-}
-
-footer {
     color: white;
     padding: 1em;
 }
