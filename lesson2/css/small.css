@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: blue;
+    background-color: #3C4F76;
     padding: 0.3em 1em;
 }
 
@@ -27,7 +27,7 @@ section {
     border-radius: 15px;
     border: 1px solid black;
     margin: 1em;
-    background-color: rgb(192, 192, 192);
+    background-color: #DDDBF1;
 }
 
 h3 {
@@ -35,7 +35,7 @@ h3 {
     margin-top: 0px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: darkblue;
+    background-color: #383F51;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -48,7 +48,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    background-color: blue;
+    background-color: #3C4F76;
 }
 
 footer {

@@ -4,7 +4,7 @@ body{
     text-align: center;
 }
 header{
-    background-color: blue;
+    background-color: #3C4F76;
     padding: 0.3em 1em;
     border-radius: 15px;
 }
@@ -23,7 +23,7 @@ section{
     padding: 1em;
 }
 footer{
-    background-color:blue;
+    background-color:#3C4F76;
     border-radius: 15px;
 }
 footer{
