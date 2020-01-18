@@ -6,4 +6,7 @@
     header, footer{
         border-radius:15px;
     }
+    article {
+        margin-top: 2em;
+    }
 }

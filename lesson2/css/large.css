@@ -3,4 +3,9 @@
         display: grid;
         grid-template-columns: auto auto auto;
     }
+
+    article {
+        margin-top: 2em;
+        max-width: 80%;
+    }
 }
