@@ -13,6 +13,9 @@ header {
 .logoPng,
 object {
     width: 30vw;
+    height: 30vw;
+    background-color: #ffffff;
+    border-radius: 50%;
 }
 
 nav {
@@ -33,7 +36,9 @@ a {
     color: #b28b84;
 }
 
-a:visited, a:active, a:hover{
+a:visited,
+a:active,
+a:hover {
     color: #ff2876;
 }
 
