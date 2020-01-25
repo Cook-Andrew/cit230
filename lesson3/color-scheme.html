@@ -3,23 +3,32 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Weather Homepage</title>
-    <link rel="stylesheet" href="CIT230\lesson3\css\styles.css">
+    <meta name="description" content="Site plan for weather site assignment for CIT 230 - Web Frontend Development">
+    <meta name="author" content="Andrew Cook">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri|Montserrat&display=swap" rel="stylesheet">
+
+    <title>Color Scheme</title>
+
+    <link rel="stylesheet" href="css\small.css">
+    <link rel="stylesheet" href="css\medium.css">
 </head>
 
 <body>
     <header>
+        <h1>Weather Website Site Plan</h1>
+        <hr/>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Color Scheme</li>
-                <li>Target Audience</li>
-                <li>Typography</li>
-            </ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="color-scheme.html"><li>Color Scheme</li></a>
+            <a href="target-audience.html"><li>Target Audience</li></a>
+            <a href="typography.html"><li>Typography</li></a>
         </nav>
     </header>
     <section>
         <h2>Color Scheme:</h2>
+        <img src="img\scheme.png" alt="Color scheme">
     </section>
     <footer>
         <div>&#169; <span id="currentYear">20--</span> | Andrew Cook | Utah | <a target="_blank"
@@ -32,6 +41,7 @@
           document.getElementById("currentYear").innerHTML = today.getFullYear();
           document.getElementById("lastMod").innerHTML = "last modified: " + document.lastModified;
         }
+        update();
       </script>
 </body>
 

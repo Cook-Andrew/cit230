@@ -1,0 +1,23 @@
+@media (min-width:32.5em) {
+    body {
+        text-align: left;
+        margin: 3em;
+    }
+    .container{
+        width:80vw;
+        margin: auto;
+    }
+    header {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    footer {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}

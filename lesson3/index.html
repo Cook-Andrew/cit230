@@ -3,19 +3,28 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="Site plan for weather site assignment for CIT 230 - Web Frontend Development">
+    <meta name="author" content="Andrew Cook">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri|Montserrat&display=swap" rel="stylesheet">
+
     <title>Weather Homepage</title>
-    <link rel="stylesheet" href="CIT230\lesson3\css\styles.css">
+
+    <link rel="stylesheet" href="css\small.css">
+    <link rel="stylesheet" href="css\medium.css">
 </head>
 
 <body>
+    <div class="container">
     <header>
+        <h1>Weather Website Site Plan</h1>
+        <hr/>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Color Scheme</li>
-                <li>Target Audience</li>
-                <li>Typography</li>
-            </ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="color-scheme.html"><li>Color Scheme</li></a>
+            <a href="target-audience.html"><li>Target Audience</li></a>
+            <a href="typography.html"><li>Typography</li></a>
         </nav>
     </header>
     <section>
@@ -26,9 +35,9 @@
         <p>pinksun.news</p>
         <h2>Logo:</h2>
         <object data="img\logo.svg" type="image/svg+xml" style="width:10vw;">
-            <img src="img\backup.png" alt="Logo" style="width:10vw;">
+            <img src="img\backup.png" alt="Logo" class="logoPng">
         </object>
-        
+
     </section>
     <footer>
         <div>&#169; <span id="currentYear">20--</span> | Andrew Cook | Utah | <a target="_blank"
@@ -43,6 +52,7 @@
         }
         update();
     </script>
+    </div>
 </body>
 
 </html>
