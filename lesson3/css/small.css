@@ -10,7 +10,8 @@ header {
     padding: 0.3em 1em;
 }
 
-.logoPng, object{
+.logoPng,
+object {
     width: 30vw;
 }
 
@@ -19,9 +20,23 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
 }
-table, td{
+
+table,
+td {
+    border-spacing: 0;
+    border-collapse: collapse;
     border: solid 2px #b28b84;
+    padding: 1em;
 }
+
+a {
+    color: #b28b84;
+}
+
+a:visited, a:active, a:hover{
+    color: #ff2876;
+}
+
 nav a {
     text-decoration: none;
 }
@@ -45,7 +60,9 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-h2,h3,h4 {
+h2,
+h3,
+h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -54,7 +71,7 @@ section {
     background-color: white;
 }
 
-img{
+img {
     width: 100%;
     border: solid 2px #b28b84;
 }
