@@ -19,7 +19,9 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
 }
-
+table, td{
+    border: solid 2px #b28b84;
+}
 nav a {
     text-decoration: none;
 }
@@ -43,7 +45,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
+h2,h3,h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
