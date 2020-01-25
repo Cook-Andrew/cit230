@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Homepage</title>
+    <link rel="stylesheet" href="CIT230\lesson3\css\styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Color Scheme</li>
+                <li>Target Audience</li>
+                <li>Typography</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Color Scheme:</h2>
+    </section>
+    <footer>
+        <div>&#169; <span id="currentYear">20--</span> | Andrew Cook | Utah | <a target="_blank"
+            href="https://www.byui.edu/online">BYUI Online Learning</a></div>
+        <div id="lastMod">last modified: </div>
+      </footer>
+      <script>
+        function update() {
+          var today = new Date();
+          document.getElementById("currentYear").innerHTML = today.getFullYear();
+          document.getElementById("lastMod").innerHTML = "last modified: " + document.lastModified;
+        }
+      </script>
+</body>
+
+</html>
