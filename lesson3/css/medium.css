@@ -12,9 +12,17 @@
         border-top-right-radius: 15px;
     }
 
-    nav {
+    nav{
         flex-direction: row;
         overflow: hidden;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    nav a{
+        display:inline;
     }
 
     .logoPng, object{

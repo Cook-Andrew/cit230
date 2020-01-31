@@ -22,10 +22,19 @@
         <h1>Weather Website Site Plan</h1>
         <hr/>
         <nav>
-            <a href="index.html"><li>Home</li></a>
-            <a href="color-scheme.html"><li>Color Scheme</li></a>
-            <a href="target-audience.html"><li>Target Audience</li></a>
-            <a href="typography.html"><li>Typography</li></a>
+            <li class="hamburger" onclick="toggleMenu()">&#9776;</li>
+            <a href="index.html" class="navLink">
+                <li>Home</li>
+            </a>
+            <a href="color-scheme.html" class="navLink">
+                <li>Color Scheme</li>
+            </a>
+            <a href="target-audience.html" class="navLink">
+                <li>Target Audience</li>
+            </a>
+            <a href="typography.html" class="navLink">
+                <li>Typography</li>
+            </a>
         </nav>
     </header>
     <section>
@@ -57,6 +66,23 @@
         <div id="lastMod">last modified: </div>
       </footer>
       <script>
+        var hidden = true;
+        var menuItem = document.getElementsByClassName("navLink");
+
+        function toggleMenu() {
+            if (hidden) {
+                hidden = false;
+                for (i in menuItem) {
+                    menuItem[i].style.display = "inline";
+                }
+            } else {
+                hidden = true;
+                for (i in menuItem) {
+                    menuItem[i].style.display = "none";
+                }
+            }
+        }
+
         function update() {
           var today = new Date();
           document.getElementById("currentYear").innerHTML = today.getFullYear();
