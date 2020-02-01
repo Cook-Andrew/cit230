@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Weather site for the greater Preston area">
+    <meta name="author" content="Andrew Cook">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri|Montserrat&display=swap" rel="stylesheet">
+
+    <title>Pink Sun | Weather | Homepage</title>
+
+    <link rel="stylesheet" href="css\small.css">
+    <link rel="stylesheet" href="css\medium.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <object data="img\logo.svg" type="image/svg+xml">
+                <img src="img\backup.png" alt="Logo" class="logoPng">
+            </object>
+            <div>
+                <h1>Pink Sun Weather Network</h1>
+                <hr />
+                <nav>
+                    <li class="hamburger" onclick="toggleMenu()">&#9776;</li>
+                    <a href="index.html" class="navLink">
+                        <li>Home</li>
+                    </a>
+                    <a href="preston.html" class="navLink">
+                        <li>Preston</li>
+                    </a>
+                    <a href="soda_springs.html" class="navLink">
+                        <li>Soda Springs</li>
+                    </a>
+                    <a href="fish_haven.html" class="navLink">
+                        <li>Fish Haven</li>
+                    </a>
+                    <a href="storm_center.html" class="navLink">
+                        <li>Storm Center</li>
+                    </a>
+                    <a href="gallery.html" class="navLink">
+                        <li>Gallery</li>
+                    </a>
+                </nav>
+        </header>
+        </header>
+        <section>
+
+        </section>
+        <footer>
+            <div>&#169; <span id="currentYear">20--</span> | Andrew Cook | Utah | <a target="_blank"
+                    href="https://www.byui.edu/online">BYUI Online Learning</a></div>
+            <div id="lastMod">last modified: </div>
+        </footer>
+        <script>
+            var menuItem = document.getElementsByClassName("navLink");
+
+            function toggleMenu() {
+                for (i in menuItem) {
+                    if (menuItem[i].classList.contains("menuItemHidden")) {
+                        menuItem[i].classList.remove("menuItemHidden");
+                    } else {
+                        menuItem[i].classList.add("menuItemHidden");
+                    }
+                }
+            }
+
+            function update() {
+                var today = new Date();
+                document.getElementById("currentYear").innerHTML = today.getFullYear();
+                document.getElementById("lastMod").innerHTML = "last modified: " + document.lastModified;
+            }
+            update();
+        </script>
+    </div>
+</body>
+
+</html>

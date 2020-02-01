@@ -1,0 +1,50 @@
+@media (min-width:37em) {
+    body {
+        text-align: left;
+        margin: 3em;
+    }
+    .container{
+        width:80vw;
+        margin: auto;
+    }
+    header {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    nav{
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    nav a{
+        display:inline;
+    }
+
+    .logoPng, object{
+        height: 5vw;
+        width: 5vw;
+        float: left;
+        margin-top:2vh;
+    }
+    
+    header div{
+        position: relative;
+        left: 2vw;
+        overflow: hidden;
+    }
+    header hr{
+        width: 70vw;
+    }
+    header nav{
+        left:5vw;
+    }
+    footer {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
