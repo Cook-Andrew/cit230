@@ -1,0 +1,22 @@
+header li {
+    list-style-type: none;
+    text-align: center;
+    padding: 1em;
+}
+
+nav li:hover{
+    background-color: black;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    flex-direction: column;
+    display: none;
+}
+
+.hiddenMenu {
+    display: flex;
+}
