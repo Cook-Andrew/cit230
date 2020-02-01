@@ -1,20 +1,44 @@
 @media(min-width:37em) {
+    header {
+        border-radius: 15px;
+    }
+
+    object,
+    .logoPng {
+        width: 7em;
+    }
+
+    header div {
+        margin-left: 8em;
+    }
+
     ul {
         flex-direction: row;
         justify-content: space-evenly;
         display: flex;
     }
-    header li{
+
+    header li {
         width: 14vw
     }
+
     #hamburger {
         display: none;
     }
-    .fiveDay{
-        display: block;
-    }
-    section{
+
+    main {
         width: 70vw;
         margin: auto;
+    }
+
+    .fiveDay {
+        display: block;
+    }
+
+    footer {
+        width: 70vw;
+        margin: auto;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
 }

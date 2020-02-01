@@ -1,18 +1,50 @@
-header li {
-    list-style-type: none;
-    text-align: center;
-    padding: 1em;
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Montserrat&display=swap');
+
+body {
+    background-color: #63d2ff;
+    color: #7b3e19;
+    font-family: 'Gayathri', sans-serif;
 }
 
-nav li:hover{
-    background-color: black;
+header {
+    padding: 1.5vw;
+    margin: 0;
+    background-color: #ff2876;
+    color: white;
 }
 
-header a {
-    text-decoration: none;
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-style: italic;
+}
+
+object,
+.logoPng {
+    width: 20vw;
+    float: left;
+    background-color: white;
+    border-radius: 50%;
+}
+
+header div {
+    margin-left: 22vw;
+}
+
+hr {
+    width: 95%;
+    margin-left: 0;
 }
 
 ul {
+    clear: both;
     flex-direction: column;
     display: none;
     margin: 0;
@@ -23,6 +55,59 @@ ul {
     display: flex;
 }
 
-.fiveDay{
+header li {
+    list-style-type: none;
+    text-align: center;
+    padding: 1em;
+}
+
+nav li:hover {
+    background-color: white;
+    color: #ff2876;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h2 {
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+}
+
+main a {
+    color: #b28b84;
+}
+
+main a:visited,
+main a:active,
+main a:hover {
+    color: #ff2876;
+}
+
+.fiveDay {
     display: none;
+}
+
+section {
+    padding: 2em;
+}
+
+figure {
+    margin: 0;
+}
+
+footer {
+    background-color: #ff2876;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
