@@ -1,13 +1,20 @@
 @media(min-width:37em) {
-    nav {
+    ul {
         flex-direction: row;
         justify-content: space-evenly;
         display: flex;
     }
     header li{
-        width: 30vw
+        width: 14vw
     }
     #hamburger {
         display: none;
+    }
+    .fiveDay{
+        display: block;
+    }
+    section{
+        width: 70vw;
+        margin: auto;
     }
 }

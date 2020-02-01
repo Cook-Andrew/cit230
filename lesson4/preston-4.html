@@ -17,23 +17,47 @@
 
 <body>
     <header>
-        <li onclick="toggle()" id="hamburger">&#9776;</li>
+        <object data="images\logo.svg" type="image/svg+xml">
+            <img src="images\backup.png" alt="Logo" class="logoPng">
+        </object>
+        <div>
+            <h1>Pink Sun Weather</h1>
+            <hr/>
+            <h4>Motto or Catchphrase</h4>
+        </div>
+        <li onclick="toggle()" id="hamburger">&#9776; Menu</li>
         <nav>
+            <ul>
             <a href="#">
-                <li>foo</li>
+                <li>Home</li>
             </a>
             <a href="#">
-                <li>bar</li>
+                <li>Preston</li>
             </a>
             <a href="#">
-                <li>baz</li>
+                <li>Soda Springs</li>
             </a>
+            <a href="#">
+                <li>Fish Haven</li>
+            </a>
+            <a href="#">
+                <li>Storm Center</li>
+            </a>
+            <a href="#">
+                <li>Gallery</li>
+            </a>
+            </ul>
         </nav>
     </header>
+    <main>
+        <section><summary>Weather Summary</summary><figure><img src="" alt=""/>Hero Image</figure></section>
+        <section class="fiveDay">5 Day Forecast</section>
+        <section><article>Article</article><figure><img src="" alt=""/></figure></section>
+        <section><aside>Contact Information</aside><figure><img src="" alt=""></figure></section>
+    </main>
     <footer>
-        <div>&#169; <span id="currentYear">20--</span> | Andrew Cook | Utah | <a target="_blank"
-                href="https://www.byui.edu/online">BYUI Online Learning</a></div>
-        <div id="lastMod">last modified: </div>
+        <span>&#169; <span id="currentYear">20--</span> Pink Sun Weather Network | Preston, Idaho | </span>
+        <span id="currentDate"> Date </span>
     </footer>
     <script src="js/update.js"></script>
     <script src="js/toggle.js"></script>

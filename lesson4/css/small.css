@@ -12,11 +12,17 @@ header a {
     text-decoration: none;
 }
 
-nav {
+ul {
     flex-direction: column;
     display: none;
+    margin: 0;
+    padding: 0;
 }
 
 .hiddenMenu {
     display: flex;
+}
+
+.fiveDay{
+    display: none;
 }

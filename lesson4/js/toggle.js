@@ -1,7 +1,7 @@
 var open = false;
 
 function toggle() {
-    var menuItems = document.getElementsByTagName('nav');
+    var menuItems = document.getElementsByTagName('ul');
     if (!open) {
         document.getElementById('hamburger').innerHTML = '&#9932;';
         open = true;
