@@ -11,6 +11,7 @@ header {
     margin: 0;
     background-color: #ff2876;
     color: white;
+    border-color: white;
 }
 
 h1,
@@ -38,7 +39,7 @@ header div {
     margin-left: 22vw;
 }
 
-hr {
+header hr {
     width: 95%;
     margin-left: 0;
 }
@@ -74,7 +75,7 @@ header a {
 main {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: 63d2ff;
 }
 
 h2 {
@@ -92,19 +93,53 @@ main a:active,
 main a:hover {
     color: #ff2876;
 }
-
+main hr{
+    border-color: #b28b84;
+    width:75vw;
+}
 .fiveDay {
     display: none;
 }
 
-section {
+.articleContainer{
+    border: 1px solid #b28b84;
+    background-color: #fceff4;
+    margin: 2em;
+}
+.contactContainer{
+    border: 1px solid #b28b84;
+    background-color: #fceff4;
+    margin: 2em;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+section{
     padding: 2em;
+    border-radius: 15px;
 }
 
 figure {
     margin: 0;
 }
-
+img{
+    width:100%;
+}
+#hero{
+    height:40vw;
+    overflow: hidden;
+}
+summary{
+    background-color: #fceff4;
+    height: 15em;
+    width:15em;
+    position:absolute;
+    margin: 1em;
+    border: 1px solid #b28b84;
+    overflow: hidden;
+    border-radius: 15px;
+}
 footer {
     background-color: #ff2876;
     color: white;

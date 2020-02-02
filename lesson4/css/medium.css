@@ -29,10 +29,38 @@
     main {
         width: 70vw;
         margin: auto;
+        background-color: white;
     }
-
+    main hr{
+        width: 60vw ;
+    }
+    figure{
+        border-radius: 15px;
+    }
+    summary{
+        width:30vw;
+        height: 37vw;
+    }
+    .articleContainer{
+        display: flex;
+    }
+    .contactContainer{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display:flex;
+        flex-direction: row-reverse;
+    }
+    aside{
+        margin: 1em;
+    }
+    article{
+        width: 100vw;
+    }
     .fiveDay {
         display: block;
+        margin: 1em;
+        border: 1px solid #b28b84;
+        background-color: #fceff4;
     }
 
     footer {
