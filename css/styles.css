@@ -42,3 +42,6 @@ footer a {
 footer a:hover {
     color: purple;
 }
+ul{
+    text-align: left;
+}
