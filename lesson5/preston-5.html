@@ -60,18 +60,55 @@
         <section>
 
             <summary>
-                <h3>Weather Summary</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in culpa qui officia deserunt mollit anim id est laborum.
+                <h3>Weather Summary</h3>
+                <!--iframe
+                    src="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=d121dd1ca6a86fe9f63a1745820a464b&mode=html"
+                    frameborder="0">
+                </iframe-->
+                <br />Temperature: 7&#0176
+                <br />Clouds: 90%
+                <br />Humidity: 81%
+                <br />Wind: 4.6m/s
+                <br />Pressure: 1012hpa
             </summary>
             <figure id="hero"><img src="images\weather_barbie.jpg"
                     alt="creative commons zero - https://www.pxfuel.com/en/free-photo-xglwk" /></figure>
         </section>
         <section class="fiveDay">
             <h3>5 Day Forecast</h3>
-            <h5>Monday | Tuesday | Wednesday | Thursday | Friday</h5>
+            <br />
+            <table>
+                <tr>
+                    <th>Sunday</th>
+                    <th>|</th>
+                    <th>Monday</th>
+                    <th>|</th>
+                    <th>Tuesday</th>
+                    <th>|</th>
+                    <th>Wednesday</th>
+                    <th>|</th>
+                    <th>Thursday</th>
+                    <th>|</th>
+                    <th>Friday</th>
+                    <th>|</th>
+                    <th>Saturday</th>
+                </tr>
+                <tr>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                </tr>
+            </table>
         </section>
         <section class="articleContainer">
             <article>
@@ -87,12 +124,15 @@
         </section>
         <section class="contactContainer">
             <aside>
-                <h3>Contact Information</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in culpa qui officia deserunt mollit anim id est laborum.
+                <h3>Contact Information</h3>
+                <br />Phone:
+                <br />801-897-4122
+                <br /><br />Email:
+                <br />endercook@byui.edu
+                <br /><br />Adress:
+                <br />Brigham Young University-Idaho
+                <br />525 South Center STOP 0780
+                <br />Rexburg, ID 83460-0780
             </aside>
             <figure><img src="images/preston_map.png" alt="wikipedia - open license"></figure>
         </section>
@@ -104,13 +144,7 @@
     </footer>
     <script src="js/update.js"></script>
     <script src="js/toggle.js"></script>
-    <script>
-        var date = new Date();
-        var day = date.getDay();
-        if (day != 5) {
-            document.getElementById("popup").style.display = "none";
-        }
-    </script>
+    <script src="js/popup.js"></script>
 </body>
 
 </html>
