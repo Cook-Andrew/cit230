@@ -79,7 +79,7 @@ header li {
     color: #ff2876;
 }
 
-nav li:hover {
+nav a:hover {
     background-color: white;
     color: #ff2876;
 }
