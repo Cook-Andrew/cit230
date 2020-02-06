@@ -19,7 +19,9 @@
 
 <body>
     <header>
-        <div class="popup">Saturday reminder! Picnic!</div>
+        <div id="popup"><span onclick='document.getElementById("popup").style.display = "none"'> X</span>Saturday =
+            Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
+            pavilion.</div>
         <object data="images\logo.svg" type="image/svg+xml">
             <img src="images\backup.png" alt="Logo" class="logoPng">
         </object>
@@ -34,7 +36,7 @@
                 <a href="#">
                     <li>Home</li>
                 </a>
-                <a href="#">
+                <a href="#" class="here">
                     <li>Preston</li>
                 </a>
                 <a href="#">
@@ -102,6 +104,13 @@
     </footer>
     <script src="js/update.js"></script>
     <script src="js/toggle.js"></script>
+    <script>
+        var date = new Date();
+        var day = date.getDay();
+        if (day != 5) {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
 </body>
 
 </html>

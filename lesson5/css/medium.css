@@ -2,7 +2,9 @@
     header {
         border-radius: 15px;
     }
-
+    #popup span{
+        margin-top: -1em;
+    }
     object,
     .logoPng {
         width: 7em;
@@ -49,6 +51,9 @@
         border-bottom-right-radius: 15px;
         display:flex;
         flex-direction: row-reverse;
+    }
+    .contactContainer figure{
+        display: block;
     }
     aside{
         margin: 1em;
