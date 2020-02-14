@@ -13,7 +13,7 @@
 
   <!-- link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" -->
   <link rel="stylesheet" href="/CIT230/css/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Gayathri|Montserrat&display=swap" rel="stylesheet">
+  <!--link href="https://fonts.googleapis.com/css?family=Gayathri|Montserrat&display=swap" rel="stylesheet"-->
   <link rel="stylesheet" href="/CIT230/css/styles.css">
   <link rel="stylesheet" href="/CIT230/css/medium.css">
 
@@ -49,6 +49,16 @@
       document.getElementById("currentYear").innerHTML = today.getFullYear();
       document.getElementById("lastMod").innerHTML = "last modified: " + document.lastModified;
     }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: [
+          'Gayathri','Montserrat'
+        ]
+      }
+    });
   </script>
 </body>
 

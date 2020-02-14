@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Preston | CIT 230 | Andrew Cook</title>
+    <meta name="description" content="Assignment portal for Andrew Cook in CIT 230 - Web Frontend Development">
+    <meta name="author" content="Andrew Cook">
+    <link rel="shotcut icon" href="favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div id="popup"><span onclick='document.getElementById("popup").style.display = "none"'> X</span>Saturday =
+            Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
+            pavilion.</div>
+        <object data="images\logo.svg" type="image/svg+xml">
+            <img src="images\backup.png" alt="Logo" class="logoPng">
+        </object>
+        <div>
+            <h1>Pink Sun Weather</h1>
+            <h4>The Weather is Snow Joke</h4>
+            <hr />
+        </div>
+        <li onclick="toggle()" id="hamburger">&#9776; Menu</li>
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#" class="here">
+                    <li>Preston</li>
+                </a>
+                <a href="#">
+                    <li>Soda Springs</li>
+                </a>
+                <a href="#">
+                    <li>Fish Haven</li>
+                </a>
+                <a href="#">
+                    <li>Storm Center</li>
+                </a>
+                <a href="#">
+                    <li>Gallery</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <hr />
+        <section>
+
+            <summary>
+                <h3>Weather Summary</h3>
+                <!--iframe
+                    src="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=d121dd1ca6a86fe9f63a1745820a464b&mode=html"
+                    frameborder="0">
+                </iframe-->
+                <br />Temperature: 7&#0176
+                <br />Clouds: 90%
+                <br />Humidity: 81%
+                <br />Wind: 4.6m/s
+                <br />Pressure: 1012hpa
+            </summary>
+            <figure id="hero"><img src="images\weather_barbie.jpg"
+                    alt="creative commons zero - https://www.pxfuel.com/en/free-photo-xglwk" /></figure>
+        </section>
+        <section class="fiveDay">
+            <h3>5 Day Forecast</h3>
+            <br />
+            <table>
+                <tr>
+                    <th>Sun.</th>
+                    <th>|</th>
+                    <th>Mon.</th>
+                    <th>|</th>
+                    <th>Tue.</th>
+                    <th>|</th>
+                    <th>Wed.</th>
+                    <th>|</th>
+                    <th>Thu.</th>
+                    <th>|</th>
+                    <th>Fri.</th>
+                    <th>|</th>
+                    <th>Sat.</th>
+                </tr>
+                <tr>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                    <td> </td>
+                    <td><img src="images\backup.png" alt="sunny" /></td>
+                </tr>
+            </table>
+        </section>
+        <section class="articleContainer">
+            <article>
+                <h3>Article</h3>
+                <h5>By Andrew Cook</h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.
+            </article>
+            <figure><img src="images/article_barbie.jpg"
+                    alt="creative commons zero - https://www.pxfuel.com/en/free-photo-oqqhq" /></figure>
+        </section>
+        <section class="contactContainer">
+            <aside>
+                <h3>Contact Information</h3>
+                <br />Phone:
+                <br />801-897-4122
+                <br /><br />Email:
+                <br />endercook@byui.edu
+                <br /><br />Adress:
+                <br />Brigham Young University-Idaho
+                <br />525 South Center STOP 0780
+                <br />Rexburg, ID 83460-0780
+            </aside>
+            <figure><img src="images/preston_map.png" alt="wikipedia - open license"></figure>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <span>&#169; <span id="currentYear">20--</span> Pink Sun Weather Network | Preston, Idaho | </span>
+            <span id="currentDate"> Date </span></section>
+    </footer>
+    <script src="js/update.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>

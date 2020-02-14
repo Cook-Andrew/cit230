@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Montserrat&display=swap');
+
+body {
+    background-color: #63d2ff;
+    color: #7b3e19;
+    font-family: 'Gayathri', sans-serif;
+}
+
+header {
+    padding: 1.5vw;
+    margin: 0;
+    background-color: #ff2876;
+    color: white;
+    border-color: white;
+}
+#popup{
+    position: absolute;
+    top: 0;
+    left: 5vw;
+    width: 60vw;
+    background-color: #fceff4;
+    border-bottom: 1px solid #ff2876;
+    color: #ff2876;
+    padding: 3vw;
+}
+#popup span{
+    float:right;
+    margin-top: -.5em;
+}
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-style: italic;
+}
+
+object,
+.logoPng {
+    width: 20vw;
+    float: left;
+    background-color: white;
+    border-radius: 50%;
+}
+
+header div {
+    margin-left: 22vw;
+}
+
+header hr {
+    width: 95%;
+    margin-left: 0;
+}
+
+ul {
+    clear: both;
+    flex-direction: column;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hiddenMenu {
+    display: flex;
+}
+
+header li {
+    list-style-type: none;
+    text-align: center;
+    padding: 1em;
+}
+.here {
+    background-color: #fceff4;
+    color: #ff2876;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #ff2876;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    background-color: 63d2ff;
+}
+
+h2 {
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+}
+
+main a {
+    color: #b28b84;
+}
+
+main a:visited,
+main a:active,
+main a:hover {
+    color: #ff2876;
+}
+main hr{
+    border-color: #b28b84;
+    width:75vw;
+}
+.fiveDay {
+    display: none;
+}
+
+.articleContainer{
+    border: 1px solid #b28b84;
+    background-color: #fceff4;
+    margin: 2em;
+}
+.contactContainer{
+    border: 1px solid #b28b84;
+    background-color: #fceff4;
+    margin: 2em;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.contactContainer figure{
+    display: none;
+}
+section{
+    padding: 2em;
+    border-radius: 15px;
+}
+
+figure {
+    margin: 0;
+}
+img{
+    width:100%;
+}
+#hero{
+    height:40vw;
+    overflow: hidden;
+}
+summary{
+    background-color: #fceff4;
+    height: 12em;
+    width:12em;
+    position:absolute;
+    margin: 1em;
+    border: 1px solid #b28b84;
+    overflow: hidden;
+    border-radius: 15px;
+    padding:1em;
+}
+footer {
+    background-color: #ff2876;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+table{
+    width:100%;
+}
+td{
+    text-align: center;
+}
