@@ -65,16 +65,19 @@
                     src="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=d121dd1ca6a86fe9f63a1745820a464b&mode=html"
                     frameborder="0">
                 </iframe-->
-                <br />Temperature: 7&#0176
+                <br />Temperature: <span id="temp">44.6</span>&#0176 F
                 <br />Clouds: 90%
                 <br />Humidity: 81%
-                <br />Wind: 4.6m/s
+                <br />Wind: <span id="windSpeed">10.28</span> MPH
                 <br />Pressure: 1012hpa
+                <br/>Wind Chill: <span id="windChill">NA</span>
             </summary>
             <figure id="hero">
                 <picture>
-                    <img src="images\weather_barbie.jpg"
-                        alt="creative commons zero - https://www.pxfuel.com/en/free-photo-xglwk" />
+                    <source media="(min-width: 70em)" srcset="images\large.jpeg">
+                    <source media="(min-width: 37em)" srcset="images\medium.jpeg">
+                    <img src="images\small.jpeg"
+                        alt="hero of idaho" />
                 </picture>
             </figure>
         </section>
@@ -149,6 +152,9 @@
     <script src="js/update.js"></script>
     <script src="js/toggle.js"></script>
     <script src="js/popup.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontLoader.js"></script>
 </body>
 
 </html>

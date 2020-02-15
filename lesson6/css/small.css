@@ -146,12 +146,11 @@ img{
     width:100%;
 }
 #hero{
-    height:40vw;
     overflow: hidden;
 }
 summary{
     background-color: #fceff4;
-    height: 12em;
+    height: 11em;
     width:12em;
     position:absolute;
     margin: 1em;
