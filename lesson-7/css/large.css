@@ -1,0 +1,16 @@
+@media(min-width:70em) {
+    header {
+        padding: 0em;
+    }
+    
+    main,
+    footer {
+        width: 80vw;
+    }
+    picture {
+        width: 30%;
+    }
+    picure:hover{
+        visibility: hidden;
+    }
+}
