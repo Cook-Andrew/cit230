@@ -126,3 +126,13 @@ img {
     filter: blur(0em);
     transition: filter 1s;
 }
+
+picture label {
+    position: relative;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    top: -2em;
+    display: none;
+}

@@ -2,15 +2,24 @@
     header {
         padding: 0em;
     }
-    
+
     main,
     footer {
         width: 80vw;
     }
+
     picture {
         width: 30%;
     }
-    picure:hover{
-        visibility: hidden;
+
+    img:hover {
+        box-shadow: 10px 5px 5px black;
+        position: relative;
+        top: -2px;
+        left: -2px;
+    }
+
+    img:hover+label {
+        display: inline;
     }
 }
