@@ -41,13 +41,19 @@
         width: 60vw;
     }
 
+    img {
+        max-width: 320px;
+    }
+
     .gallery {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     picture {
         width: 45%;
     }
+
     footer {
         width: 70vw;
         margin: auto;

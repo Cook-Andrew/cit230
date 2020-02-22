@@ -13,6 +13,7 @@ header {
     color: white;
     border-color: white;
 }
+
 h1,
 h2,
 h3,
@@ -60,6 +61,7 @@ header li {
     text-align: center;
     padding: 1em;
 }
+
 .here {
     background-color: #fceff4;
     color: #ff2876;
@@ -96,28 +98,34 @@ main a:active,
 main a:hover {
     color: #ff2876;
 }
-main hr{
+
+main hr {
     border-color: #b28b84;
-    width:75vw;
+    width: 75vw;
 }
-section{
+
+section {
     padding: 2em;
     border-radius: 15px;
 }
-.gallery{
+
+.gallery {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-img{
-    width:100%;
+
+img {
+    width: 100%;
 }
+
 footer {
     background-color: #ff2876;
     color: white;
     margin: 0;
     padding: 0;
 }
+
 img[data-src] {
     filter: blur(0.2em);
 }
