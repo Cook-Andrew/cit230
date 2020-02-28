@@ -4,7 +4,10 @@ body {
     font-family: 'Ubuntu';
     text-align: center;
 }
-
+table{
+    
+    box-shadow: 10px 5px 5px #628ca6;
+}
 table,
 td,
 th {
