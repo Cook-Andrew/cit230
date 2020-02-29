@@ -85,10 +85,16 @@ main {
 
 form {
     background-color: white;
-    width: 20em;
+    width: 23em;
     margin: auto;
     padding: 2em;
     border: 1px solid #b28b84
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 110px;
 }
 
 h2 {

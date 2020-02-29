@@ -56,18 +56,19 @@
             <h2>Storm Center</h2>
             <hr />
             <form action="thanks.html">
-                <label>Full Name: </label>
-                <input type="text" pattern="[A-Za-z A-Za-z]{5,}" title="5 letters minimum" required><br />
-                <label>E-mail: </label>
-                <input type="email" placeholder="email@domain.com"><br />
-                <label>Phone Number: </label>
-                <input type="tel" required><br />
-                <label>Zip Code: </label>
-                <input type="number" required><br />
-                <label>Storm Date: </label>
-                <input type="date"><br />
-                <label>Storm Type: </label>
-                <input list="stormType"><br />
+                <label for="fullname">Full Name: </label>
+                <input name="fullname" type="text" pattern="[A-Za-z A-Za-z]{5,}" title="5 letters minimum"
+                    required><br /><br />
+                <label for="email">E-mail: </label>
+                <input name="email" type="email" placeholder="email@domain.com"><br /><br />
+                <label for="phone">Phone Number: </label>
+                <input name="phone" type="tel" required><br /><br />
+                <label for="zip">Zip Code: </label>
+                <input name="zip" type="number" required><br /><br />
+                <label for="stormDate">Storm Date: </label>
+                <input name="stormDate" type="date"><br /><br />
+                <label for="stormType">Storm Type: </label>
+                <input name="stormType" list="stormType"><br /><br />
                 <datalist id="stormType">
                     <option value="Flash Flood">
                     <option value="Hail">
@@ -76,18 +77,24 @@
                     <option value="Tornado">
                     <option value="Sharknado">
                 </datalist>
-                <label>Storm Severity: </label>
-                <input type="range" min="0" max="10"
+                <label for="severity">Storm Severity: </label>
+                <input name="severity" type="range" min="0" max="10"
                     oninput="document.getElementById('rangeValLabel').innerHTML = this.value;" step="1" value="0">
-                <label id="rangeValLabel">0</label><br />
-                <label>Storm Region: </label>
-                <select>
+                <span id="rangeValLabel">0</span><br /><br />
+                <label for="region">Storm Region: </label>
+                <select name="region">
                     <option selected="selected" disabled>Select Region</option>
                     <option value="Preston">Preston</option>
                     <option value="Soda Springs">Soda Springs</option>
                     <option value="Fish Haven">Fish Haven</option>
-                    </select><br />
-                <br /><input type="submit">
+                </select><br /><br />
+                <label for="danger">User in Danger: </label>
+                <input name="danger" type="radio"><span> Yes</span><br />
+                <label></label><input name="danger" type="radio"><span> Maybe</span><br />
+                <label></label><input name="danger" type="radio"><span> No</span><br /><br />
+                <label for="comments">Additional Comments: </label>
+                <textarea name="comments"></textarea><br /><br />
+                <br /><label></label><input type="submit">
             </form>
         </section>
     </main>
