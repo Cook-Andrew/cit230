@@ -83,6 +83,14 @@ main {
     background-color: 63d2ff;
 }
 
+form {
+    background-color: white;
+    width: 20em;
+    margin: auto;
+    padding: 2em;
+    border: 1px solid #b28b84
+}
+
 h2 {
     padding: 1em;
     margin: 0;

@@ -42,7 +42,7 @@
                 <a href="#">
                     <li>Fish Haven</li>
                 </a>
-                <a href="#" class="here">
+                <a href="stormcenter.html" class="here">
                     <li>Storm Center</li>
                 </a>
                 <a href="#">
@@ -53,42 +53,8 @@
     </header>
     <main>
         <section>
-            <h2>Storm Center</h2>
+            <h2>Thank You!</h2>
             <hr />
-            <form action="thanks.html">
-                <label>Full Name: </label>
-                <input type="text" pattern="[A-Za-z A-Za-z]{5,}" title="5 letters minimum" required><br />
-                <label>E-mail: </label>
-                <input type="email" placeholder="email@domain.com"><br />
-                <label>Phone Number: </label>
-                <input type="tel" required><br />
-                <label>Zip Code: </label>
-                <input type="number" required><br />
-                <label>Storm Date: </label>
-                <input type="date"><br />
-                <label>Storm Type: </label>
-                <input list="stormType"><br />
-                <datalist id="stormType">
-                    <option value="Flash Flood">
-                    <option value="Hail">
-                    <option value="Hurricane">
-                    <option value="Thunder Storm">
-                    <option value="Tornado">
-                    <option value="Sharknado">
-                </datalist>
-                <label>Storm Severity: </label>
-                <input type="range" min="0" max="10"
-                    oninput="document.getElementById('rangeValLabel').innerHTML = this.value;" step="1" value="0">
-                <label id="rangeValLabel">0</label><br />
-                <label>Storm Region: </label>
-                <select>
-                    <option selected="selected" disabled>Select Region</option>
-                    <option value="Preston">Preston</option>
-                    <option value="Soda Springs">Soda Springs</option>
-                    <option value="Fish Haven">Fish Haven</option>
-                    </select><br />
-                <br /><input type="submit">
-            </form>
         </section>
     </main>
     <footer>
