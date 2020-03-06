@@ -1,0 +1,66 @@
+/*small*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Spartan&display=swap');
+header {
+    text-align: center;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    color: #012542;
+}
+h2 {
+    font-family: 'Lobster', cursive;
+    color: #012542;
+}
+
+h3 {
+    font-family: 'Spartan', sans-serif;
+    color: #274690;
+}
+
+h4 {
+    font-family: 'Spartan', sans-serif;
+    color: #274690;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*todo:add dropshadow */
+}
+
+section {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: solid #012542 1px;
+    background-color: #2EC4B6 ;
+}
+
+img {
+    width: 30%;
+    /*todo:add dropshadow */
+}
+
+footer {
+    text-align: center;
+}
+
+/*medium*/
+@media(min-width:37em) {
+    section {
+        width: 49%;
+        min-height: 530px;
+    }
+
+    img {
+        width: 60%;
+    }
+}
+
+/*large*/
+@media(min-width:70em) {
+    section {
+        width: 24%;
+    }
+}
