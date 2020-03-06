@@ -26,7 +26,8 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /*todo:add dropshadow */
+    box-shadow: 0 0 50px #012542;
+    padding: 1em;
 }
 
 section {
@@ -39,7 +40,7 @@ section {
 
 img {
     width: 30%;
-    /*todo:add dropshadow */
+    box-shadow: 0 0 50px #012542;
 }
 
 footer {
