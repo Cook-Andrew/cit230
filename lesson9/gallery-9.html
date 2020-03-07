@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Gallery | CIT 230 | Andrew Cook</title>
+    <meta name="description" content="Assignment for Andrew Cook in CIT 230 - Web Frontend Development">
+    <meta name="author" content="Andrew Cook">
+    <link rel="shotcut icon" href="favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/gallery/small.css">
+    <link rel="stylesheet" href="css/gallery/medium.css">
+    <link rel="stylesheet" href="css/gallery/large.css">
+</head>
+
+<body>
+    <header>
+        <object data="img\logo.svg" type="image/svg+xml">
+            <img src="img\backup.png" alt="Logo" class="logoPng">
+        </object>
+        <div>
+            <h1>Pink Sun Weather</h1>
+            <h4>The Weather is Snow Joke</h4>
+            <hr />
+        </div>
+        <li onclick="toggle()" id="hamburger">&#9776; Menu</li>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="preston-9.html">
+                    <li>Preston</li>
+                </a>
+                <a href="#">
+                    <li>Soda Springs</li>
+                </a>
+                <a href="#">
+                    <li>Fish Haven</li>
+                </a>
+                <a href="storm_center-9.html">
+                    <li>Storm Center</li>
+                </a>
+                <a href="#" class="here">
+                    <li>Gallery</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Weather Gallery</h2>
+        <hr />
+        <section class="gallery">
+            <picture>
+                <source media="(min-width: 70em)" srcset="img/cloudy_large.jpg">
+                <source media="(min-width: 37em)" srcset="img/cloudy_medium.jpg">
+                <img src="img/placeholder.png" alt="cloudy weather" class="lazy-image"
+                    data-src="img/cloudy_small.jpg" />
+
+                <label>Cloudy</label>
+            </picture>
+            <picture>
+                <source media="(min-width: 70em)" srcset="img/cold_large.jpg">
+                <source media="(min-width: 37em)" srcset="img/cold_medium.jpg">
+                <img src="img/placeholder.png" alt="cold weather" class="lazy-image"
+                    data-src="img/cold_small.jpg" />
+
+                <label>Cold</label>
+            </picture>
+            <picture>
+                <source media="(min-width: 70em)" srcset="img/foggy_large.jpg">
+                <source media="(min-width: 37em)" srcset="img/foggy_medium.jpg">
+                <img src="img/placeholder.png" alt="foggy weather" class="lazy-image"
+                    data-src="img/foggy_small.jpg" />
+
+                <label>Foggy</label>
+            </picture>
+                <picture>
+                    <source media="(min-width: 70em)" srcset="img/lightning_large.jpg">
+                    <source media="(min-width: 37em)" srcset="img/lightning_medium.jpg">
+                    <img src="img/placeholder.png" alt="lightning" class="lazy-image"
+                        data-src="img/lightning_small.jpg" />
+    
+                    <label>Lightning</label>
+                    
+                </picture>
+                <picture>
+                    <source media="(min-width: 70em)" srcset="img/rainy_large.jpg">
+                    <source media="(min-width: 37em)" srcset="img/rainy_medium.jpg">
+                    <img src="img/placeholder.png" alt="rainy weather" class="lazy-image"
+                        data-src="img/rainy_small.jpg" />
+    
+                    <label>Rainy</label>
+                </picture>
+                <picture>
+                    <source media="(min-width: 70em)" srcset="img/severe_large.jpg">
+                    <source media="(min-width: 37em)" srcset="img/severe_medium.jpg">
+                    <img src="img/placeholder.png" alt="severe weather" class="lazy-image"
+                        data-src="img/severe_small.jpg" />
+    
+                    <label>Severe</label>
+                </picture>
+                <picture>
+                    <source media="(min-width: 70em)" srcset="img/snowy_large.jpg">
+                    <source media="(min-width: 37em)" srcset="img/snowy_medium.jpg">
+                    <img src="img/placeholder.png" alt="snowy weather" class="lazy-image"
+                        data-src="img/snowy_small.jpg" />
+    
+                    <label>Snowy</label>
+                </picture>
+                <picture>
+                    <source media="(min-width: 70em)" srcset="img/sunny_large.jpg">
+                    <source media="(min-width: 37em)" srcset="img/sunny_medium.jpg">
+                    <img src="img/placeholder.png" alt="sunny weather" class="lazy-image"
+                        data-src="img/sunny_small.jpg" />
+    
+                    <label>Sunny</label>
+                </picture>
+                <picture>
+                    <source media="(min-width: 70em)" srcset="img/windy_large.jpg">
+                    <source media="(min-width: 37em)" srcset="img/windy_medium.jpg">
+                    <img src="img/placeholder.png" alt="windy weather" class="lazy-image"
+                        data-src="img/windy_small.jpg" />
+    
+                    <label>Windy</label>
+                </picture>
+        </section>
+        <span id="credits">All pictures aquired free from <a href="https://pixabay.com/" target="_blank">Pixabay</a> under an open license</span>
+    </main>
+    <footer>
+        <section>
+            <span>&#169; <span id="currentYear">20--</span> Pink Sun Weather Network | Preston, Idaho | </span>
+            <span id="currentDate"> Date </span></section>
+    </footer>
+    <script src="js/update.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontLoader.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+@media(min-width:37em) {
+    header {
+        border-radius: 15px;
+    }
+
+    #popup span {
+        margin-top: -1em;
+    }
+
+    object,
+    .logoPng {
+        width: 7em;
+    }
+
+    header div {
+        margin-left: 8em;
+    }
+
+    nav {
+        overflow: hidden;
+    }
+
+    ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+    }
+
+    header li {
+        width: 10vw
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    main {
+        width: 70vw;
+        margin: auto;
+        background-color: white;
+    }
+
+    main hr {
+        width: 60vw;
+    }
+
+    figure {
+        border-radius: 15px;
+    }
+
+    #hero{
+        
+    height:30vw;
+    }
+    summary {
+        width: 30vw;
+        height: 28vw;
+    }
+
+    .articleContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .contactContainer {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contactContainer figure {
+        display: inline-block;
+        max-width:50%;
+    }
+
+    aside {
+        margin: 1em;
+    }
+
+    article {
+        width: 100vw;
+    }
+
+    .fiveDay {
+        display: block;
+        margin: 1em;
+        border: 1px solid #b28b84;
+        background-color: #fceff4;
+    }
+    .fiveDay img{
+        max-width: 4em;
+    }
+
+    footer {
+        width: 70vw;
+        margin: auto;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}

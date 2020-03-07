@@ -1,0 +1,14 @@
+@media(min-width:70em) {
+    header {
+        padding: 0em;
+    }
+    
+    #popup span{
+        margin-top: -2em;
+    }
+
+    main,
+    footer {
+        width: 80vw;
+    }
+}
