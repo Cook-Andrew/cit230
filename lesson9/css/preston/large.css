@@ -6,6 +6,15 @@
     #popup span{
         margin-top: -2em;
     }
+    .card{
+        display: inline;
+    }
+    .cards {
+        flex-direction: row;
+    }
+    .card img{
+        max-width: 80%;
+    }
 
     main,
     footer {

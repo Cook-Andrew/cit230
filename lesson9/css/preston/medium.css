@@ -44,7 +44,17 @@
     main hr {
         width: 60vw;
     }
-
+    .card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .card:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    .card img{
+        max-width: 50%;
+    }
     figure {
         border-radius: 15px;
     }
