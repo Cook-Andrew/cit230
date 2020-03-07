@@ -8,12 +8,13 @@
     }
     .card{
         display: inline;
+        width:33%;
     }
     .cards {
         flex-direction: row;
     }
     .card img{
-        max-width: 80%;
+        min-width: 80%;
     }
 
     main,
