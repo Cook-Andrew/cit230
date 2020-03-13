@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+body {
+    text-align: center;
+    font-family: 'Trade Winds';
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+hr {
+    width: 700px;
+}
+
+#container {
+    width: 500px;
+    margin: auto;
+}

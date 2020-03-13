@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Home | CIT 230 | Andrew Cook</title>
+    <meta name="description" content="Assignment for Andrew Cook in CIT 230 - Web Frontend Development">
+    <meta name="author" content="Andrew Cook">
+    <link rel="shotcut icon" href="favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/preston/small.css">
+    <link rel="stylesheet" href="css/preston/medium.css">
+    <link rel="stylesheet" href="css/preston/large.css">
+</head>
+
+<body>
+    <header>
+        <object data="img\logo.svg" type="image/svg+xml">
+            <img src="img\backup.png" alt="Logo" class="logoPng">
+        </object>
+        <div>
+            <h1>Pink Sun Weather</h1>
+            <h4>The Weather is Snow Joke</h4>
+            <hr />
+        </div>
+        <li onclick="toggle()" id="hamburger">&#9776; Menu</li>
+        <nav>
+            <ul>
+                <a href="index.html" class="here">
+                    <li>Home</li>
+                </a>
+                <a href="preston-10.html">
+                    <li>Preston</li>
+                </a>
+                <a href="#">
+                    <li>Soda Springs</li>
+                </a>
+                <a href="#">
+                    <li>Fish Haven</li>
+                </a>
+                <a href="storm_center-10.html">
+                    <li>Storm Center</li>
+                </a>
+                <a href="gallery-10.html">
+                    <li>Gallery</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cards"></section>
+    </main>
+    <footer>
+        <section>
+            <span>&#169; <span id="currentYear">20--</span> Pink Sun Weather Network | Preston, Idaho | </span>
+            <span id="currentDate"> Date </span></section>
+    </footer>
+    <script src="js/update.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontLoader.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/towncards.js"></script>
+</body>
+
+</html>
