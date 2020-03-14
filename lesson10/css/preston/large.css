@@ -16,6 +16,9 @@
     .card img{
         min-width: 80%;
     }
+    summary div{
+        margin: 0;
+    }
 
     main,
     footer {
