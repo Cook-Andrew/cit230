@@ -9,7 +9,7 @@ fetch(apiURL)
         document.getElementById('humidity').textContent = jsObject.main.humidity;
         document.getElementById('windSpeed').textContent = jsObject.wind.speed;
 
-        //the following is provided by the example api-test.html. It is ledt in so that page still functions
+        //the following is provided by the example api-test.html. It is left untouched so that page still functions
         document.getElementById('current-temp').textContent = jsObject.main.temp;
         const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png'; // note the concatenation
         const desc = jsObject.weather[0].description; // note how we reference the weather array
