@@ -170,6 +170,10 @@ summary{
     border-radius: 15px;
     padding:1em;
 }
+summary div{
+    width: 12rem;
+    margin: auto;
+}
 #icon{
     width: 4em;
 }
