@@ -170,6 +170,9 @@ summary{
     border-radius: 15px;
     padding:1em;
 }
+#icon{
+    width: 4em;
+}
 footer {
     background-color: #ff2876;
     color: white;
