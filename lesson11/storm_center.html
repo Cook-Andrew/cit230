@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Storm Center | CIT 230 | Andrew Cook</title>
+    <meta name="description" content="Assignment for Andrew Cook in CIT 230 - Web Frontend Development">
+    <meta name="author" content="Andrew Cook">
+    <link rel="shotcut icon" href="favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/storm/small.css">
+    <link rel="stylesheet" href="css/storm/medium.css">
+    <link rel="stylesheet" href="css/storm/large.css">
+</head>
+
+<body>
+    <header>
+        <object data="img\logo.svg" type="image/svg+xml">
+            <img src="img\backup.png" alt="Logo" class="logoPng">
+        </object>
+        <div>
+            <h1>Pink Sun Weather</h1>
+            <h4>The Weather is Snow Joke</h4>
+            <hr />
+        </div>
+        <li onclick="toggle()" id="hamburger">&#9776; Menu</li>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="preston.html">
+                    <li>Preston</li>
+                </a>
+                <a href="#">
+                    <li>Soda Springs</li>
+                </a>
+                <a href="#">
+                    <li>Fish Haven</li>
+                </a>
+                <a href="#" class="here">
+                    <li>Storm Center</li>
+                </a>
+                <a href="gallery.html">
+                    <li>Gallery</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Storm Center</h2>
+            <hr />
+            <form action="thanks.html">
+                <label for="fullname">Full Name: </label>
+                <input name="fullname" type="text" pattern="[A-Za-z A-Za-z]{5,}" title="5 letters minimum"
+                    required><br /><br />
+                <label for="email">E-mail: </label>
+                <input name="email" type="email" placeholder="email@domain.com"><br /><br />
+                <label for="phone">Phone Number: </label>
+                <input name="phone" type="tel" required><br /><br />
+                <label for="zip">Zip Code: </label>
+                <input name="zip" type="number" required><br /><br />
+                <label for="stormDate">Storm Date: </label>
+                <input name="stormDate" type="date"><br /><br />
+                <label for="stormType">Storm Type: </label>
+                <input name="stormType" list="stormType"><br /><br />
+                <datalist id="stormType">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunder Storm">
+                    <option value="Tornado">
+                    <option value="Sharknado">
+                </datalist>
+                <label for="severity">Storm Severity: </label>
+                <input name="severity" type="range" min="0" max="10"
+                    oninput="document.getElementById('rangeValLabel').innerHTML = this.value;" step="1" value="0">
+                <span id="rangeValLabel">0</span><br /><br />
+                <label for="region">Storm Region: </label>
+                <select name="region">
+                    <option selected="selected" disabled>Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select><br /><br />
+                <label for="danger">User in Danger: </label>
+                <input name="danger" type="radio"><span> Yes</span><br />
+                <label></label><input name="danger" type="radio"><span> Maybe</span><br />
+                <label></label><input name="danger" type="radio"><span> No</span><br /><br />
+                <label for="comments">Additional Comments: </label>
+                <textarea name="comments"></textarea><br /><br />
+                <br /><label></label><input type="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <span>&#169; <span id="currentYear">20--</span> Pink Sun Weather Network | Preston, Idaho | </span>
+            <span id="currentDate"> Date </span></section>
+    </footer>
+    <script src="js/update.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontLoader.js"></script>
+</body>
+
+</html>

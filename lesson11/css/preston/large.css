@@ -1,0 +1,27 @@
+@media(min-width:70em) {
+    header {
+        padding: 0em;
+    }
+    
+    #popup span{
+        margin-top: -2em;
+    }
+    .card{
+        display: inline;
+        width:33%;
+    }
+    .cards {
+        flex-direction: row;
+    }
+    .card img{
+        min-width: 80%;
+    }
+    summary div{
+        margin: 0;
+    }
+
+    main,
+    footer {
+        width: 80vw;
+    }
+}
