@@ -9,12 +9,16 @@
     .card{
         display: inline;
         width:33%;
+        text-align: center;
     }
     .cards {
         flex-direction: row;
     }
     .card img{
         min-width: 80%;
+    }
+    .card div{
+        margin:auto;
     }
     summary div{
         margin: 0;

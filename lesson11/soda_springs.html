@@ -5,25 +5,24 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Preston | CIT 230 | Andrew Cook</title>
+    <title>Soda Springs | CIT 230 | Andrew Cook</title>
     <meta name="description" content="Assignment for Andrew Cook in CIT 230 - Web Frontend Development">
     <meta name="author" content="Andrew Cook">
     <link rel="shotcut icon" href="favicon.ico">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/city/small.css">
+    <link rel="stylesheet" href="css/city/medium.css">
+    <link rel="stylesheet" href="css/city/large.css">
 </head>
 
 <body>
     <header>
         <div id="popup"><span onclick='document.getElementById("popup").style.display = "none"'> X</span>Saturday =
-            Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
-            pavilion.</div>
-        <object data="images/logo.svg" type="image/svg+xml">
-            <img src="images/backup.png" alt="Logo" class="logoPng">
+            PSA: Please stay indoors during the Covid19 outbreak!</div>
+        <object data="img/logo.svg" type="image/svg+xml">
+            <img src="img/backup.png" alt="Logo" class="logoPng">
         </object>
         <div>
             <h1>Pink Sun Weather</h1>
@@ -33,86 +32,91 @@
         <li onclick="toggle()" id="hamburger">&#9776; Menu</li>
         <nav>
             <ul>
-                <a href="#">
+                <a href="index.html">
                     <li>Home</li>
                 </a>
-                <a href="#" class="here">
+                <a href="preston.html">
                     <li>Preston</li>
                 </a>
-                <a href="#">
+                <a href="#" class="here">
                     <li>Soda Springs</li>
                 </a>
-                <a href="#">
+                <a href="fish_haven.html">
                     <li>Fish Haven</li>
                 </a>
-                <a href="#">
+                <a href="storm_center.html">
                     <li>Storm Center</li>
                 </a>
-                <a href="#">
+                <a href="gallery.html">
                     <li>Gallery</li>
                 </a>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>Preston, Idaho</h2>
+        <h2>Soda Springs, Idaho</h2>
         <hr />
         <section>
 
             <summary>
-                <h3>Weather Summary</h3>
-                <!--iframe
-                    src="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=d121dd1ca6a86fe9f63a1745820a464b&mode=html"
-                    frameborder="0">
-                </iframe-->
-                <br />Temperature: <span id="temp">44.6</span>&#0176 F
-                <br />Clouds: 90%
-                <br />Humidity: 81%
-                <br />Wind: <span id="windSpeed">10.28</span> MPH
-                <br />Pressure: 1012hpa
-                <br />Wind Chill: <span id="windChill">NA</span>
+                <div>
+                    <h3>Weather Summary</h3>
+                    <img id="icon" alt="icon N/A" src="img/backup.png" />
+                    <br />Current Condition: <span id="current">N/A</span>
+                    <br />Temperature: <span id="temp">N/A</span>&#0176 F
+                    <br />Humidity: <span id="humidity">N/A</span>%
+                    <br />Wind Speed: <span id="windSpeed">N/A</span> MPH
+                    <br />Wind Chill: <span id="windChill">N/A</span>&#0176 F
+                </div>
             </summary>
             <figure id="hero">
                 <picture>
-                    <source media="(min-width: 70em)" srcset="images/large.jpeg">
-                    <source media="(min-width: 37em)" srcset="images/medium.jpeg">
-                    <img src="images/small.jpeg" alt="hero of idaho" />
+                    <source media="(min-width: 70em)" srcset="img/cold_large.jpg">
+                    <source media="(min-width: 37em)" srcset="img/cold_medium.jpg">
+                    <img src="img/cold_small.jpg" alt="hero of idaho" />
                 </picture>
             </figure>
+        </section>
+        <section class="events">
+            <h3>City Events</h3><br/>
+            <h4>Due to the Covid19 outbreak, all events are postponed until further notice!</h4><br/>
         </section>
         <section class="fiveDay">
             <h3>5 Day Forecast</h3>
             <br />
             <table>
                 <tr>
-                    <th>Sun.</th>
+                    <th id="date1">N/A</th>
                     <th>|</th>
-                    <th>Mon.</th>
+                    <th id="date2">N/A</th>
                     <th>|</th>
-                    <th>Tue.</th>
+                    <th id="date3">N/A</th>
                     <th>|</th>
-                    <th>Wed.</th>
+                    <th id="date4">N/A</th>
                     <th>|</th>
-                    <th>Thu.</th>
-                    <th>|</th>
-                    <th>Fri.</th>
-                    <th>|</th>
-                    <th>Sat.</th>
+                    <th id="date5">N/A</th>
                 </tr>
                 <tr>
-                    <td><img src="images/backup.png" alt="sunny" /></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon1" /></td>
                     <td> </td>
-                    <td><img src="images/backup.png" alt="sunny" /></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon2" /></td>
                     <td> </td>
-                    <td><img src="images/backup.png" alt="sunny" /></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon3" /></td>
                     <td> </td>
-                    <td><img src="images/backup.png" alt="sunny" /></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon4" /></td>
                     <td> </td>
-                    <td><img src="images/backup.png" alt="sunny" /></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon5" /></td>
+                </tr>
+                <tr>
+                    <td><span id="temp1">N/A</span>&#0176 F</td>
                     <td> </td>
-                    <td><img src="images/backup.png" alt="sunny" /></td>
+                    <td><span id="temp2">N/A</span>&#0176 F</td>
                     <td> </td>
-                    <td><img src="images/backup.png" alt="sunny" /></td>
+                    <td><span id="temp3">N/A</span>&#0176 F</td>
+                    <td> </td>
+                    <td><span id="temp4">N/A</span>&#0176 F</td>
+                    <td> </td>
+                    <td><span id="temp5">N/A</span>&#0176 F</td>
                 </tr>
             </table>
         </section>
@@ -125,7 +129,7 @@
                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
                 in culpa qui officia deserunt mollit anim id est laborum.
             </article>
-            <figure><img src="images/article_barbie.jpg"
+            <figure><img src="img/article_barbie.jpg"
                     alt="creative commons zero - https://www.pxfuel.com/en/free-photo-oqqhq" /></figure>
         </section>
         <section class="contactContainer">
@@ -140,20 +144,27 @@
                 <br />525 South Center STOP 0780
                 <br />Rexburg, ID 83460-0780
             </aside>
-            <figure><img src="images/preston_map.png" alt="wikipedia - open license"></figure>
+            <figure><img src="img/preston_map.png" alt="wikipedia - open license"></figure>
         </section>
     </main>
     <footer>
         <section>
             <span>&#169; <span id="currentYear">20--</span> Pink Sun Weather Network | Preston, Idaho | </span>
-            <span id="currentDate"> Date </span></section>
+            <span id="currentDate"> Date </span>
+            <p>Weather data coutesy of <a href="https://openweathermap.org/" target="_blank">The Open Weather Map</a>
+            </p>
+        </section>
     </footer>
     <script src="js/update.js"></script>
     <script src="js/toggle.js"></script>
     <script src="js/popup.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/forecastapi_sodaSprings.js"></script>
+    <script src="js/weatherapi_sodaSprings.js"></script>
+    <script src="js/sodaSpringsEvents.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/fontLoader.js"></script>
+
+    <script src="js/lazyload.js"></script>
 </body>
 
 </html>

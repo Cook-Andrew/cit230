@@ -20,6 +20,7 @@ fetch(requestURL)
                 let rain = document.createElement('span');
                 let image = document.createElement('img');
                 let br = document.createElement('br');
+                let br1 = document.createElement('br1');
                 let br2 = document.createElement('br');
                 let br3 = document.createElement('br');
 
@@ -34,8 +35,9 @@ fetch(requestURL)
                 card.appendChild(div);
                 div.appendChild(h2);
                 div.appendChild(h3);
-                div.appendChild(founded);
                 div.appendChild(br);
+                div.appendChild(founded);
+                div.appendChild(br1);
                 div.appendChild(population);
                 div.appendChild(br2);
                 div.appendChild(rain);

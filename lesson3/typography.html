@@ -12,85 +12,120 @@
 
     <title>Typography</title>
 
-    <link rel="stylesheet" href="css\small.css">
-    <link rel="stylesheet" href="css\medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
 </head>
 
 <body>
     <div class="container">
-    <header>
-        <h1>Weather Website Site Plan</h1>
-        <hr/>
-        <nav>
-            <li class="hamburger" onclick="toggleMenu()">&#9776;</li>
-            <a href="index.html" class="navLink">
-                <li>Home</li>
-            </a>
-            <a href="color-scheme.html" class="navLink">
-                <li>Color Scheme</li>
-            </a>
-            <a href="target-audience.html" class="navLink">
-                <li>Target Audience</li>
-            </a>
-            <a href="typography.html" class="navLink">
-                <li>Typography</li>
-            </a>
-        </nav>
-    </header>
-    <section>
-        <h2>Typography:</h2>
-        <table>
-            <tr>
-                <td><h3>h1</h3></td><td><header><h1>Sample</h1><hr/></header></td>
-            </tr>
-            <tr>
-                <td><h3>h2, h3</h3></td><td><h2>Sample</h2></td>
-            </tr>
-            <tr>
-                <td><h3>nav</h3></td><td><header><nav><li>Sample</li></nav></header></td>
-            </tr>
-            <tr>
-                <td><h3>p</h3></td><td><p>Sample</p></td>
-            </tr>
-            <tr>
-                <td><h3>a</h3></td><td><a href="doesnotexist.html">Sample</a></td>
-            </tr>
-            <tr>
-                <td><h3>footer</h3></td><td><footer>Sample</footer></td>
-            </tr>
-        </table>
-    </section>
-    <footer>
-        <div>&#169; <span id="currentYear">20--</span> | Andrew Cook | Utah | <a target="_blank"
-            href="https://www.byui.edu/online">BYUI Online Learning</a></div>
-        <div id="lastMod">last modified: </div>
-      </footer>
-      <script>
-        var hidden = true;
-        var menuItem = document.getElementsByClassName("navLink");
+        <header>
+            <h1>Weather Website Site Plan</h1>
+            <hr />
+            <nav>
+                <li class="hamburger" onclick="toggleMenu()">&#9776;</li>
+                <a href="index.html" class="navLink">
+                    <li>Home</li>
+                </a>
+                <a href="color-scheme.html" class="navLink">
+                    <li>Color Scheme</li>
+                </a>
+                <a href="target-audience.html" class="navLink">
+                    <li>Target Audience</li>
+                </a>
+                <a href="typography.html" class="navLink">
+                    <li>Typography</li>
+                </a>
+            </nav>
+        </header>
+        <section>
+            <h2>Typography:</h2>
+            <table>
+                <tr>
+                    <td>
+                        <h3>h1</h3>
+                    </td>
+                    <td>
+                        <header>
+                            <h1>Sample</h1>
+                            <hr />
+                        </header>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>h2, h3</h3>
+                    </td>
+                    <td>
+                        <h2>Sample</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>nav</h3>
+                    </td>
+                    <td>
+                        <header>
+                            <nav>
+                                <li>Sample</li>
+                            </nav>
+                        </header>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>p</h3>
+                    </td>
+                    <td>
+                        <p>Sample</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>a</h3>
+                    </td>
+                    <td><a href="doesnotexist.html">Sample</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>footer</h3>
+                    </td>
+                    <td>
+                        <footer>Sample</footer>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <footer>
+            <div>&#169; <span id="currentYear">20--</span> | Andrew Cook | Utah | <a target="_blank"
+                    href="https://www.byui.edu/online">BYUI Online Learning</a></div>
+            <div id="lastMod">last modified: </div>
+        </footer>
+        <script>
+            var hidden = true;
+            var menuItem = document.getElementsByClassName("navLink");
 
-        function toggleMenu() {
-            if (hidden) {
-                hidden = false;
-                for (i in menuItem) {
-                    menuItem[i].style.display = "inline";
-                }
-            } else {
-                hidden = true;
-                for (i in menuItem) {
-                    menuItem[i].style.display = "none";
+            function toggleMenu() {
+                if (hidden) {
+                    hidden = false;
+                    for (i in menuItem) {
+                        menuItem[i].style.display = "inline";
+                    }
+                } else {
+                    hidden = true;
+                    for (i in menuItem) {
+                        menuItem[i].style.display = "none";
+                    }
                 }
             }
-        }
 
-        function update() {
-          var today = new Date();
-          document.getElementById("currentYear").innerHTML = today.getFullYear();
-          document.getElementById("lastMod").innerHTML = "last modified: " + document.lastModified;
-        }
-        update();
-      </script>
-      </div>
+            function update() {
+                var today = new Date();
+                document.getElementById("currentYear").innerHTML = today.getFullYear();
+                document.getElementById("lastMod").innerHTML = "last modified: " + document.lastModified;
+            }
+            update();
+        </script>
+    </div>
 </body>
 
 </html>

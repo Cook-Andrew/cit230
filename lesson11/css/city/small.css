@@ -13,7 +13,8 @@ header {
     color: white;
     border-color: white;
 }
-#popup{
+
+#popup {
     position: absolute;
     top: 0;
     left: 5vw;
@@ -23,10 +24,12 @@ header {
     color: #ff2876;
     padding: 3vw;
 }
-#popup span{
-    float:right;
+
+#popup span {
+    float: right;
     margin-top: -.5em;
 }
+
 h1,
 h2,
 h3,
@@ -57,7 +60,7 @@ header hr {
     margin-left: 0;
 }
 
-ul {
+nav ul {
     clear: both;
     flex-direction: column;
     display: none;
@@ -74,6 +77,7 @@ header li {
     text-align: center;
     padding: 1em;
 }
+
 .here {
     background-color: #fceff4;
     color: #ff2876;
@@ -110,28 +114,35 @@ main a:active,
 main a:hover {
     color: #ff2876;
 }
-main hr{
+
+main hr {
     border-color: #b28b84;
-    width:75vw;
+    width: 75vw;
 }
+
 .fiveDay {
     display: none;
 }
-.cards{
+
+.cards {
     display: flex;
     flex-direction: column;
 }
+
 .card {
     background-color: #fceff4;
     border: 1px solid #b28b84;
-    text-align: center;
+    text-align: left;
 }
-.articleContainer{
+
+.articleContainer,
+.events {
     border: 1px solid #b28b84;
     background-color: #fceff4;
     margin: 2em;
 }
-.contactContainer{
+
+.contactContainer {
     border: 1px solid #b28b84;
     background-color: #fceff4;
     margin: 2em;
@@ -139,10 +150,12 @@ main hr{
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-.contactContainer figure{
+
+.contactContainer figure {
     display: none;
 }
-section{
+
+section {
     padding: 2em;
     border-radius: 15px;
 }
@@ -150,45 +163,54 @@ section{
 figure {
     margin: 0;
 }
-img{
-    width:100%;
+
+img {
+    width: 100%;
 }
-.card img{
+
+.card img {
     object-fit: scale-down;
 }
-#hero{
+
+#hero {
     overflow: hidden;
 }
-summary{
+
+summary {
     background-color: #fceff4;
     height: 11em;
-    width:12em;
-    position:absolute;
+    width: 12em;
+    position: absolute;
     margin: 1em;
     border: 1px solid #b28b84;
     overflow: hidden;
     border-radius: 15px;
-    padding:1em;
+    padding: 1em;
 }
-summary div{
+
+summary div {
     width: 12rem;
     margin: auto;
     padding: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
 }
-#icon{
+
+#icon {
     width: 4em;
 }
+
 footer {
     background-color: #ff2876;
     color: white;
     margin: 0;
     padding: 0;
 }
-table{
-    width:100%;
+
+table {
+    width: 100%;
 }
-td{
+
+td {
     text-align: center;
 }

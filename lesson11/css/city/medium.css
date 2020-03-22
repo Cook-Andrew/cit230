@@ -20,7 +20,7 @@
         overflow: hidden;
     }
 
-    ul {
+    nav ul {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
@@ -44,25 +44,35 @@
     main hr {
         width: 60vw;
     }
-    .card{
+
+    .card {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
+
     .card:nth-child(odd) {
         flex-direction: row-reverse;
     }
-    .card img{
+
+    .card img {
         max-width: 50%;
     }
+
+    .card div {
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+
     figure {
         border-radius: 15px;
     }
 
-    #hero{
-        
-    height:30vw;
+    #hero {
+
+        height: 30vw;
     }
+
     summary {
         width: 30vw;
         height: 28vw;
@@ -84,7 +94,7 @@
 
     .contactContainer figure {
         display: inline-block;
-        max-width:50%;
+        max-width: 50%;
     }
 
     aside {
@@ -101,7 +111,8 @@
         border: 1px solid #b28b84;
         background-color: #fceff4;
     }
-    .fiveDay img{
+
+    .fiveDay img {
         max-width: 4em;
     }
 

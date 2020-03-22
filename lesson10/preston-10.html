@@ -22,8 +22,8 @@
         <div id="popup"><span onclick='document.getElementById("popup").style.display = "none"'> X</span>Saturday =
             Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
             pavilion.</div>
-        <object data="img\logo.svg" type="image/svg+xml">
-            <img src="img\backup.png" alt="Logo" class="logoPng">
+        <object data="img/logo.svg" type="image/svg+xml">
+            <img src="img/backup.png" alt="Logo" class="logoPng">
         </object>
         <div>
             <h1>Pink Sun Weather</h1>
@@ -62,7 +62,7 @@
             <summary>
                 <div>
                     <h3>Weather Summary</h3>
-                    <img id="icon" alt="icon N/A" src="img\backup.png" />
+                    <img id="icon" alt="icon N/A" src="img/backup.png" />
                     <br />Current Condition: <span id="current">N/A</span>
                     <br />Temperature: <span id="temp">N/A</span>&#0176 F
                     <br />Humidity: <span id="humidity">N/A</span>%
@@ -72,9 +72,9 @@
             </summary>
             <figure id="hero">
                 <picture>
-                    <source media="(min-width: 70em)" srcset="img\cold_large.jpg">
-                    <source media="(min-width: 37em)" srcset="img\cold_medium.jpg">
-                    <img src="img\cold_small.jpg" alt="hero of idaho" />
+                    <source media="(min-width: 70em)" srcset="img/cold_large.jpg">
+                    <source media="(min-width: 37em)" srcset="img/cold_medium.jpg">
+                    <img src="img/cold_small.jpg" alt="hero of idaho" />
                 </picture>
             </figure>
         </section>
@@ -94,15 +94,15 @@
                     <th id="date5">N/A</th>
                 </tr>
                 <tr>
-                    <td><img src="img\backup.png" alt="icon N/A" id="icon1"/></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon1" /></td>
                     <td> </td>
-                    <td><img src="img\backup.png" alt="icon N/A" id="icon2"/></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon2" /></td>
                     <td> </td>
-                    <td><img src="img\backup.png" alt="icon N/A" id="icon3"/></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon3" /></td>
                     <td> </td>
-                    <td><img src="img\backup.png" alt="icon N/A" id="icon4"/></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon4" /></td>
                     <td> </td>
-                    <td><img src="img\backup.png" alt="icon N/A" id="icon5"/></td>
+                    <td><img src="img/backup.png" alt="icon N/A" id="icon5" /></td>
                 </tr>
                 <tr>
                     <td><span id="temp1">N/A</span>&#0176 F</td>
@@ -147,7 +147,10 @@
     <footer>
         <section>
             <span>&#169; <span id="currentYear">20--</span> Pink Sun Weather Network | Preston, Idaho | </span>
-            <span id="currentDate"> Date </span><p>Weather data coutesy of <a href="https://openweathermap.org/" target="_blank">The Open Weather Map</a></p></section>
+            <span id="currentDate"> Date </span>
+            <p>Weather data coutesy of <a href="https://openweathermap.org/" target="_blank">The Open Weather Map</a>
+            </p>
+        </section>
     </footer>
     <script src="js/update.js"></script>
     <script src="js/toggle.js"></script>
