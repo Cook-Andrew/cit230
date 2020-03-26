@@ -1,0 +1,31 @@
+#hamburger{
+    display: none;
+}
+header{
+    img{
+        top: 5rem;
+        position: absolute; 
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 8rem;;
+    }
+    li{
+        padding: .5rem 1.5rem;
+    }
+}
+main{
+    #weather{
+        width:62vw;
+        margin:auto;
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    ul{
+        padding-left: 0px;
+        list-style: none;
+    }
+}

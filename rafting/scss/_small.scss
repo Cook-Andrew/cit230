@@ -1,7 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto+Slab:wght@900&display=swap');
 
-header {}
+body{
+    font-family: $josefin;
+    background-color: #d1d5de;
+}
 
-main {}
+h1, h2, h3, h4, h5, h6{
+    font-family: $roboto;
+}
 
-footer {}
+header {
+    background-color: $bookendsColor;
+    img{
+        height: 8rem;
+        width: 8rem;
+        border: 1px solid black;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        background-color: $navColor;
+        color: $navText;
+        font-family: $roboto;
+    }
+    ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    #hamburger{
+        width:100vw;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding: .4rem 0rem .4rem;
+    }
+    li{
+        padding: .4rem 7rem .4rem;
+    }
+    li:hover{
+        background-color: $navText;
+        color: $navColor;
+    }
+    overflow: hidden;
+}
+
+main {
+    background-color: white;
+    overflow: hidden;
+    height: 62vh;
+    .frame{
+        width:100vw;
+        border: 1px solid black;
+    }
+    input[type=button]{
+        position: relative;
+        top:7rem;
+        left: 31vw;
+        width:38vw;
+        font-family: $roboto;
+        border: none;
+        background-color: $navColor;
+        color: $navText;
+        padding: 1em 0px;
+    }
+    input[type=button]:active{
+        background-color: $bookendsColor;
+    }
+    #weather{
+        background-color: $weatherColor;
+        width: 100vw;
+    }
+}
+
+footer {
+    background-color: $bookendsColor;
+    overflow: hidden;
+    height: 38vh;
+}
