@@ -30,6 +30,9 @@ header {
     h1 {
         text-align: center;
         padding-left: 4rem;
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     nav {
@@ -92,7 +95,6 @@ main {
 
     #weather {
         background-color: $weatherColor;
-        margin-top: -5rem;
         width: 100vw;
         height: 38vh;
         img {
