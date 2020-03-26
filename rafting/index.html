@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <img alt="logo" src="" />
+        <img alt="logo" src="https://img.icons8.com/ios-glyphs/90/000000/canoe-slalom--v2.png" />
         <div>
             <h1>Salmon River Adventures</h1>
             <nav>
@@ -32,9 +32,13 @@
     </header>
     <main>
         <div class="frame">
-            <img alt="hero" src=""></div>
+            <picture>
+                <source media="(min-width: 70em)" srcset="img/Salmon_River_2k.jpg">
+                <source media="(min-width: 37em)" srcset="img/1280px-Salmon_River.jpg">
+                <img src="img/640px-Salmon_River.jpg" alt="Hero image" />
+            </picture></div>
         <input type="button" value="Book an Adventure!"></input>
-        <div id="weather">current weather</div>
+        <div id="weather"><img alt="Weather icon" src="https://img.icons8.com/pastel-glyph/64/000000/snowflake--v2.png"><ul><li>Current Weather</li></ul></div>
     </main>
     <footer>
         <ul>
@@ -42,6 +46,7 @@
         </ul>
         <ul>
             <li>Site Map</li>
+            <li>Hero image from Wikimedia Commons <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">license</a></li>
         </ul>
         <ul>
             <li>Social Links</li>

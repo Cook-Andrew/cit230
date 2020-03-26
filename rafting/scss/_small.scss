@@ -1,75 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto+Slab:wght@900&display=swap');
 
-body{
+body {
     font-family: $josefin;
-    background-color: #d1d5de;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: $roboto;
 }
 
 header {
     background-color: $bookendsColor;
-    img{
-        height: 8rem;
-        width: 8rem;
-        border: 1px solid black;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        height: 4rem;
+        width: 4rem;
+        top:1.5rem;
+        left:2rem;
+        background-color: $diskColor;
+        border-radius: 50%;
     }
-    h1{
+
+    h1 {
         text-align: center;
+        padding-left: 4rem;
     }
-    nav{
+
+    nav {
         background-color: $navColor;
         color: $navText;
         font-family: $roboto;
+        position: absolute;
     }
-    ul{
+
+    ul {
+        display: none;
         list-style: none;
         margin: 0px;
         padding: 0px;
     }
-    #hamburger{
-        width:100vw;
+
+    #hamburger {
+        width: 100vw;
         text-align: center;
         border-bottom: 1px solid white;
         padding: .4rem 0rem .4rem;
     }
-    li{
-        padding: .4rem 7rem .4rem;
+
+    li {
+        padding: .3rem 7rem .3rem;
     }
-    li:hover{
+
+    li:hover {
         background-color: $navText;
         color: $navColor;
     }
-    overflow: hidden;
+
 }
 
 main {
-    background-color: white;
     overflow: hidden;
-    height: 62vh;
-    .frame{
-        width:100vw;
-        border: 1px solid black;
-    }
-    input[type=button]{
+
+    .frame {
         position: relative;
-        top:7rem;
+        height: 62vh;
+        z-index: -1;
+    }
+
+    input[type=button] {
+        position: relative;
+        top: -38vh;
         left: 31vw;
-        width:38vw;
+        width: 38vw;
         font-family: $roboto;
         border: none;
         background-color: $navColor;
         color: $navText;
         padding: 1em 0px;
+        border-radius: 5px;
     }
-    input[type=button]:active{
+
+    input[type=button]:active {
         background-color: $bookendsColor;
     }
-    #weather{
+
+    #weather {
         background-color: $weatherColor;
+        margin-top: -5rem;
         width: 100vw;
+        height: 38vh;
+        img {
+            position: relative;
+            width: 6rem;
+            height: 6rem;
+            left: 1rem;
+            top: -4rem;
+            background-color: $diskColor;
+            border-radius: 50%;
+        }
+        ul{
+            list-style: none;
+            margin-left: 6rem;
+            margin-top: -5rem;
+        }
     }
 }
 
@@ -77,4 +116,7 @@ footer {
     background-color: $bookendsColor;
     overflow: hidden;
     height: 38vh;
+    ul{
+        list-style: none;
+    }
 }
