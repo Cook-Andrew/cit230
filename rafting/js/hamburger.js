@@ -3,14 +3,14 @@ $("document").ready(function(){
         $("#menu").slideToggle();
     });
 });
+  
+var mQuery = window.matchMedia("(max-width: 42em)")
+hide(mQuery) 
+mQuery.addListener(hide) 
 function hide(mQuery) {
-    if (mQuery.matches) { // If media query matches
+    if (mQuery.matches) { 
         $("#menu").css("display", "none");
     } else {
         $("#menu").css("display", "flex");
     }
-  }
-  
-  var mQuery = window.matchMedia("(max-width: 42em)")
-  hide(mQuery) // Call listener function at run time
-  mQuery.addListener(hide) // Attach listener function on state changes
+}
