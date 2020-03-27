@@ -2,6 +2,7 @@
 
 body {
     font-family: $josefin;
+    background-color: $bodyColor;
 }
 
 h1,
@@ -12,7 +13,18 @@ h5,
 h6 {
     font-family: $roboto;
 }
-
+a{
+    color: $linkColor;
+}
+a:active{
+    color: $linkActive;
+}
+a:visited{
+    color: $linkVisited;
+}
+a:visited:active{
+    color: $linkActive;
+}
 header {
     background-color: $bookendsColor;
     overflow: hidden;
@@ -70,7 +82,9 @@ header {
 
 main {
     overflow: hidden;
-
+    h1, h2, h3, h4, h5, h6{
+        color: $hnumColor;
+    }
     .frame {
         position: relative;
         height: 62vh;
@@ -121,5 +135,8 @@ footer {
     height: 38vh;
     ul{
         list-style: none;
+    }
+    img{
+        width: 30px;
     }
 }
