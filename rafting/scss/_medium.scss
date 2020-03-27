@@ -26,7 +26,6 @@ header{
     }
 }
 main{
-    height: 62vh;
     #weather{
         position: relative;
         width:62vw;
@@ -45,11 +44,25 @@ main{
         }
     }
 }
+.home{
+    height: 62vh;
+}
 footer{
     display: flex;
     justify-content: space-evenly;
+    height: 38vh;
     ul{
         padding-left: 0px;
         list-style: none;
+        width: auto;
+    }
+    ul:nth-child(3){
+        li:nth-child(1){
+            display: inline;
+        }
+        li:nth-child(2){
+            display: inline;
+        }
+        display: inline;
     }
 }
