@@ -125,6 +125,10 @@ main {
             list-style: none;
             margin-left: 6rem;
             margin-top: -5rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: column;
         }
     }
 }
