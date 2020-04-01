@@ -58,6 +58,8 @@ header {
         font-family: $roboto;
         position: absolute;
         z-index: 10;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
 
     ul {
@@ -81,6 +83,10 @@ header {
     li:hover {
         background-color: $navText;
         color: $navColor;
+    }
+
+    .here {
+        background-color: $navHere;
     }
 
 }
@@ -114,9 +120,29 @@ main {
         color: $navText;
         padding: 1em 0px;
         border-radius: 5px;
+        min-width: 160px;
     }
 
     input[type=button]:active {
+        background-color: $bookendsColor;
+    }
+
+    textarea, input[type=text], input[type=email]{
+        font-family: $josefin;
+    }
+
+    input[type=submit] {
+        width: 38vw;
+        font-family: $roboto;
+        border: none;
+        background-color: $navColor;
+        color: $navText;
+        padding: 1em 0px;
+        border-radius: 5px;
+        min-width: 160px;
+    }
+
+    input[type=submit]:active {
         background-color: $bookendsColor;
     }
 

@@ -14,6 +14,9 @@ $("document").ready(function(){
     $("#supreme").click(function(){
         window.location.href = 'adventure_three.html';
     });
+    $("#guides").click(function(){
+        window.location.href = 'guides.html';
+    });
     $("#contact").click(function(){
         window.location.href = 'contact.html';
     });
