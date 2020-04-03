@@ -1,0 +1,31 @@
+{
+    "guides": [{
+        "name": "John",
+        "picture": "img/Salmon_River_2k.jpg",
+        "certification": "level 3",
+        "experience": "2 years",
+        "email": "john@SRAdventures.com",
+        "biography": "brief"
+    }, {
+        "name": "Leslie",
+        "picture": "filepath",
+        "certification": "level 4",
+        "experience": "5 years",
+        "email": "leslie@SRAdventures.com",
+        "biography": "brief"
+    }, {
+        "name": "Kayte",
+        "picture": "filepath",
+        "certification": "level 5",
+        "experience": "10 years",
+        "email": "kayte@SRAdventures.com",
+        "biography": "brief"
+    }, {
+        "name": "Henry",
+        "picture": "filepath",
+        "certification": "level 3",
+        "experience": "3 years",
+        "email": "henry@SRAdventures.com",
+        "biography": "brief"
+    }]
+}
