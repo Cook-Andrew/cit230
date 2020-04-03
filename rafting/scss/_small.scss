@@ -127,8 +127,28 @@ main {
         background-color: $bookendsColor;
     }
 
-    textarea, input[type=text], input[type=email]{
+    textarea,
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    input[type=date],
+    input[type=number],
+    table,
+    select {
         font-family: $josefin;
+        padding: .3rem;
+        border-radius: 5px;
+        border: 1px solid $navColor;
+        margin-bottom: .5rem;
+    }
+    textarea, table{
+        width: 100%;
+    }
+    th,
+    td {
+        border: 1px solid $navColor;
+        border-radius: 5px;
+        padding: 1rem;
     }
 
     input[type=submit] {
@@ -137,7 +157,7 @@ main {
         border: none;
         background-color: $navColor;
         color: $navText;
-        padding: 1em 0px;
+        padding: 1rem 0px;
         border-radius: 5px;
         min-width: 160px;
     }
@@ -175,16 +195,17 @@ main {
     .container {
         width: 62vw;
         margin: auto;
+        max-width: 740px;
     }
 
     ul {
         list-style: none;
         padding: 0;
     }
-
     iframe {
         width: 100%;
-        height: 62vw;
+        height: 62vw; /* using view-width on height was intentional to keep it a square */
+        max-height: 740px;
         margin: auto;
         border: none;
         border-radius: 5px;

@@ -36,19 +36,59 @@
     </header>
     <main>
         <div class="container">
-        Registration
-        • data table
-        • adventure 1
-        • adventure 2
-        • adventure 3
-        • Registration form
-        • Full name
-        • email
-        • phone
-        • adventure selection
-        • start date
-        • questions/comments
-    </div>
+            <h2>Registration</h2>
+            <hr />
+            <table>
+                <tr>
+                    <th>
+                        <h3>Package</h3>
+                    </th>
+                    <th>
+                        <h3>Details</h3>
+                    </th>
+                    <th>
+                        <h3>Price</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>The Awesome</td>
+                    <td>Individuals, Medium to difficult - Food not included!</td>
+                    <td>$50.00 / Day</td>
+                </tr>
+                <tr>
+                    <td>The Epic</td>
+                    <td>Full family experience for four, including meals! Easy.</td>
+                    <td>$200.00 Down, $40.00 / Add on</td>
+                </tr>
+                <tr>
+                    <td>The Supreme</td>
+                    <td>Youth Groups / Corperate team building, Easy to Difficult. Minimum 10 participants required!</td>
+                    <td>$450.00 Down, $40.00 / Add on</td>
+                </tr>
+            </table><br />
+            <form action="thanks.html">
+                <label for="fullName">Full Name:</label><br />
+                <input type="text" id="fullName" name="fullName"><br />
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email"><br />
+                <label for="phoneNumber">Phone:</label><br />
+                <input type="tel" id="phoneNumber" name="phoneNumber"><br />
+                <label for="package">Select an Adventure:</label><br />
+                <select id="package" name="package">
+                    <option value="awesome">The Awesome</option>
+                    <option value="awesome">The Epic</option>
+                    <option value="awesome">The Supreme</option>
+                </select>
+                <br />
+                <label for="participants">Number of Participants:</label><br />
+                <input type="number" id="participants" name="participants"><br />
+                <label for="date">Start Date:</label><br />
+                <input type="date" id="date" name="date"><br /><br />
+                <label for="comment">Questions or Comments:</label><br />
+                <textarea id="comment" name="comment" rows="4"></textarea><br /><br />
+                <input type="submit" value="Submit"><br /><br />
+            </form>
+        </div>
     </main>
     <footer>
         <ul>
