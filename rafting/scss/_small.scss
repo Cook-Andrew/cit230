@@ -99,8 +99,10 @@ main {
     h3,
     h4,
     h5,
-    h6 {
+    h6, 
+    th {
         color: $hnumColor;
+        font-family: $roboto;
     }
 
     .frame {
@@ -141,14 +143,20 @@ main {
         border: 1px solid $navColor;
         margin-bottom: .5rem;
     }
-    textarea, table{
+    textarea{
         width: 100%;
     }
+    table{
+        width: 100%;
+        background-color: $navColor;
+    }
+
     th,
     td {
         border: 1px solid $navColor;
         border-radius: 5px;
         padding: 1rem;
+        background-color: $bodyColor;
     }
 
     input[type=submit] {
