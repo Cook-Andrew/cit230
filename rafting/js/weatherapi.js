@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    //var apiurl = "https://api.openweathermap.org/data/2.5/weather?id=4092267&units=imperial&appid=d121dd1ca6a86fe9f63a1745820a464b";
-    var apiurl = "js/test.json"; //dummy data for debugging
+    var apiurl = "https://api.openweathermap.org/data/2.5/weather?id=4092267&units=imperial&appid=d121dd1ca6a86fe9f63a1745820a464b";
+    //var apiurl = "js/test.json"; //dummy data for debugging
     $.getJSON(apiurl, function (result) {
         weatherObj = result;
         console.log(weatherObj);
