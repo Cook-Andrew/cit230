@@ -1,3 +1,4 @@
+// Make menu items clickable
 $("document").ready(function(){
     $("#hamburger").click(function(){
         $("#menu").slideToggle();
@@ -28,6 +29,7 @@ $("document").ready(function(){
     });
 });
   
+// toggle menu
 var mQuery = window.matchMedia("(max-width: 42em)")
 hide(mQuery) 
 mQuery.addListener(hide) 
