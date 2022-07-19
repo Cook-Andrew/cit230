@@ -24,6 +24,6 @@
     }
 
     img:hover+label {
-        display: inline;
+        visibility: visible;
     }
 }

@@ -19,11 +19,12 @@
     img:hover {
         box-shadow: 10px 5px 5px black;
         position: relative;
-        top: -2px;
-        left: -2px;
+        top: -5px;
+        left: -5px;
     }
 
     img:hover+label {
-        display: inline;
+        visibility: visible;
     }
+
 }
