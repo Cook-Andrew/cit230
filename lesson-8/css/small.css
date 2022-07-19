@@ -156,5 +156,5 @@ picture label {
     padding-right: 1em;
     padding-top: .5em;
     top: -2em;
-    display: none;
+    visibility: hidden;
 }
