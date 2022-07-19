@@ -14,17 +14,20 @@ fetch(requestURL)
             let bDate = document.createElement('h3');//added this
             let bPlace = document.createElement('h4');//added this
             let image = document.createElement('img');//added this
+            let description = document.createElement('p');//added this
 
             //setting the inner text example: <h2>CONTENT</h2>
-            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+            h2.textContent = 'con-man: ' + prophets[i].name + ' ' + prophets[i].lastname;
             bDate.textContent = "Date of Birth: " + prophets[i].birthdate;//added this
             bPlace.textContent = "Place of Birth: " + prophets[i].birthplace;//added this
+            description.textContent = "This guy married multiple under-age teenagers.";
 
             //add the created element to it's parent
             card.appendChild(h2);
             card.appendChild(bDate);//added this
             card.appendChild(bPlace);//added this
             card.appendChild(image);//added this
+            card.appendChild(description);//added this
 
             //add the container to the document
             document.querySelector('div.cards').appendChild(card);
